@@ -5,6 +5,7 @@ This will go over the basic details about regular expressions. I will be going o
 ## Summary
 
 The Regex below is a simple regular expression to match email addresses. 
+Note the /'s at the start and ending of the expression. All regular expressions are wrapped in /'s.
 ```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
@@ -26,7 +27,7 @@ It's looking for a basic email address with a-z, 0-9, _, ., and -'s all accepted
 
 ### Anchors
 
-The ^ and \$ are both anchors when it comes to regex's. The ^ signifies the start of a string, where the \$ signifies the end. In a simple basic expression using only anchors like this: ^carol$ ... would only find words matching "carol" and it would be case sensitive. So this would successfully find any word exactly matching "carol", but "Carol" would be excluded.
+The `^` and `$` are both anchors when it comes to regex's. The `^` signifies the start of a string, where the `$` signifies the end. In a simple basic expression using only anchors like this: ^carol$ ... would only find words matching "carol" and it would be case sensitive. So this would successfully find any word exactly matching "carol", but "Carol" would be excluded.
 
 ### Quantifiers
 
