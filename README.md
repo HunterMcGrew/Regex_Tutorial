@@ -33,8 +33,8 @@ The `^` and `$` are both anchors when it comes to regex's. The `^` signifies the
 
 There are 4 different quantifers when dealing with regular expressions. 
 
- *  matches your given pattern zero or more times.
- +  matches your given pattern one or more times.
+ \*  matches your given pattern zero or more times.
+ \+  matches your given pattern one or more times.
  ?  matches your given pattern zero or ONE time.
  {} and these...Curly brackets are special. They allow 3 different ways to limit your match.
 
